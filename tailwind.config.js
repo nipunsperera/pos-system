@@ -5,7 +5,12 @@ export default {
     './src/**/*.{js,ts,jsx,tsx}' // all files in src with these extensions
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'thisara-start' : "#1d2552",
+        'thisara-end' : "#525d9c",
+      }
+    },
   },
   plugins: [],
 }
